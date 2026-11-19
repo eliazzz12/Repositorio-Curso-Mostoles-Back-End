@@ -10,7 +10,7 @@ SELECT
 FROM 
 	country c
 		JOIN 
-			countrylanguage cl
+	countrylanguage cl
 		ON
 			c.Code = cl.CountryCode 
 				AND
